@@ -153,6 +153,81 @@ li::before {
     top: -5px;
 }
 
+/* Section Themes */
+/* Benefits - Green */
+.section-benefits {
+    border-top: 5px solid #28a745;
+}
+.section-benefits h2 {
+    color: #1e7e34;
+}
+.section-benefits h2::after {
+    background: linear-gradient(to right, #28a745, #a3cfbb);
+}
+.section-benefits h3 {
+    color: #28a745;
+}
+.section-benefits li::before {
+    color: #28a745;
+}
+
+/* Process - Blue (Primary) */
+.section-process {
+    border-top: 5px solid #0056b3;
+}
+.section-process h2 {
+    color: #004085;
+}
+.section-process h2::after {
+    background: linear-gradient(to right, #0056b3, #6610f2); /* Slight purple hint for flow */
+}
+/* h3 and li inherit primary blue by default, but ensuring consistency */
+.section-process h3 {
+    color: #0056b3;
+}
+.section-process li::before {
+    color: #0056b3;
+}
+
+/* Security - Orange/Red for Vigilance */
+.section-security {
+    border-top: 5px solid #d35400; /* Pumpkin Orange */
+}
+.section-security h2 {
+    color: #c0392b;
+}
+.section-security h2::after {
+    background: linear-gradient(to right, #d35400, #f1c40f);
+}
+.section-security h3 {
+    color: #d35400;
+}
+.section-security li::before {
+    content: '!'; /* Changing bullet to ! for attention */
+    color: #d35400;
+    font-weight: 800;
+}
+
+/* Role - Purple for Professionalism */
+.section-role {
+    border-top: 5px solid #6f42c1;
+}
+.section-role h2 {
+    color: #5a32a3;
+}
+.section-role h2::after {
+    background: linear-gradient(to right, #6f42c1, #e83e8c);
+}
+.section-role h3 {
+    color: #6f42c1;
+}
+.section-role li::before {
+    color: #6f42c1;
+}
+.section-role .actions-list li::before {
+    content: '→'; /* Arrow for actions */
+}
+
 /* Footer */
 footer {
     text-align: center;
